@@ -106,12 +106,12 @@ Stage 1: DROID-SLAM Coarse Tracking
 ##  Project Structure
 ```
 DG-SLAM-Stage1/
-├── stage1_complete.py      # Main implementation
-├── requirements.txt        # Python dependencies
-├── README.md              # This file
-├── results/               # Output directory (gitignored)
-├── checkpoints/          # Pretrained weights (gitignored)
-└── data/                 # TUM dataset (gitignored)
+--stage1_complete.py      # Main implementation
+---- requirements.txt        # Python dependencies
+---- README.md              # This file
+---- results/               # Output directory (gitignored)
+----- checkpoints/          # Pretrained weights (gitignored)
+----- data/                 # TUM dataset (gitignored)
 ```
 
 ## Experiments
