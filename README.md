@@ -114,7 +114,7 @@ DG-SLAM-Stage1/
 └── data/                 # TUM dataset (gitignored)
 ```
 
-## 🔬 Experiments
+## Experiments
 
 ### Reproduction Study
 - Evaluate on TUM RGB-D dynamic sequences
@@ -126,7 +126,7 @@ DG-SLAM-Stage1/
 - Varying depth thresholds (0.3, 0.6, 0.9)
 - Different dynamic object densities
 
-## 📚 References
+##  References
 ```bibtex
 @inproceedings{xu2024dgslam,
   title={DG-SLAM: Robust Dynamic Gaussian Splatting SLAM with Hybrid Pose Optimization},
@@ -143,17 +143,17 @@ DG-SLAM-Stage1/
 }
 ```
 
-##  Acknowledgments
+## Acknowledgments
 
 - **DG-SLAM**: https://github.com/fudan-zvg/DG-SLAM
 - **DROID-SLAM**: https://github.com/princeton-vl/DROID-SLAM
 - **TUM RGB-D**: https://vision.in.tum.de/data/datasets/rgbd-dataset
 
-##  License
+## License
 
 MIT License - see LICENSE file for details
 
-##  Team
+## Team
 
 - **Raphael Dias** - dias.ra@northeastern.edu
 - **Ahmad Hassan** - hassan.ahmad@northeastern.edu
