@@ -86,14 +86,14 @@ results = main(
 ### Architecture
 ```
 Stage 1: DROID-SLAM Coarse Tracking
-├── Feature Extraction
-│   ├── RGB Encoder (Conv + GroupNorm)
-│   └── Depth Encoder (Conv + GroupNorm)
-├── Iterative Refinement (GRU-based)
-└── Motion Mask Generation
-    ├── Depth Warping (Eq. 5)
-    ├── Depth Difference Check (Eq. 6)
-    └── Temporal Consistency (Eq. 7)
+- Feature Extraction
+    - RGB Encoder (Conv + GroupNorm)
+    - Depth Encoder (Conv + GroupNorm)
+  - Iterative Refinement (GRU-based)
+  - Motion Mask Generation
+  -  Depth Warping (Eq. 5)
+    -  Depth Difference Check (Eq. 6)
+    -  Temporal Consistency (Eq. 7)
 ```
 
 ### Key Components
@@ -143,17 +143,17 @@ DG-SLAM-Stage1/
 }
 ```
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **DG-SLAM**: https://github.com/fudan-zvg/DG-SLAM
 - **DROID-SLAM**: https://github.com/princeton-vl/DROID-SLAM
 - **TUM RGB-D**: https://vision.in.tum.de/data/datasets/rgbd-dataset
 
-## 📝 License
+##  License
 
 MIT License - see LICENSE file for details
 
-## 👥 Team
+##  Team
 
 - **Raphael Dias** - dias.ra@northeastern.edu
 - **Ahmad Hassan** - hassan.ahmad@northeastern.edu
@@ -163,6 +163,6 @@ MIT License - see LICENSE file for details
 **Institution**: Northeastern University  
 **Semester**: Fall 2025
 
-## 📧 Contact
+##  Contact
 
 For questions or issues, please open an issue on GitHub or contact the team members.
