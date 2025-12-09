@@ -1,6 +1,6 @@
 # DG-SLAM-Evaluation
 "Empirical evaluation of DG-SLAM paper (NeurIPS 2024)..."
-# DG-SLAM Stage 1: DROID-SLAM Coarse Tracking
+# DG-SLAM Hyper Pose Estimation Stage 1: DROID-SLAM Coarse Tracking
 
 Implementation of Stage 1 (Coarse Tracking) from the paper:
 **"DG-SLAM: Robust Dynamic Gaussian Splatting SLAM with Hybrid Pose Optimization"** (NeurIPS 2024)
