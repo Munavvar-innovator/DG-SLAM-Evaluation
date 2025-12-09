@@ -80,18 +80,6 @@ results = main(
     start_frame=50,
     download=True
 )
-```
-
-##  Results
-
-### TUM RGB-D Dataset Evaluation
-
-| Sequence | Frames | ATE (cm) | Static Regions (%) |
-|----------|--------|----------|-------------------|
-| freiburg3_walking_xyz | 100 | X.XX | XX.X% |
-| freiburg3_sitting_xyz | 100 | X.XX | XX.X% |
-
-*(Fill in your actual results)*
 
 ## 🛠️ Technical Details
 
